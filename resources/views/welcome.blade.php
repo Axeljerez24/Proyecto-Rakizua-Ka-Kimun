@@ -22,7 +22,7 @@
                 
                 
                 <div class="col-lg-7  my-3" >
-                    <img src="{{  asset('img/escuelavirtual.jpeg') }}"  class="img-fluid" width="750px" alt="Principal">
+                    <img src="{{  asset('img/escuela.png') }}"  class="img-fluid" width="750px" alt="Principal">
                     
                 </div>
     

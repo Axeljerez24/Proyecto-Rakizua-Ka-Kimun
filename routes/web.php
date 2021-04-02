@@ -22,7 +22,7 @@ Route::get('/ingresar', function(){
 });
 
 Route::get('/registro',  function(){
-    return view('registro');
+    return view('registro1');
 });
 
 
