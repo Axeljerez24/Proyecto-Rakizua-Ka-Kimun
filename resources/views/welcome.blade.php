@@ -22,7 +22,7 @@
                 
                 
                 <div class="col-lg-7  my-3" >
-                    <img src="{{  asset('img/escuela.png') }}"  class="img-fluid" width="750px" alt="Principal">
+                    <img src="{{  asset('img/escuela.png') }}"  class="img-fluid" width="550px" alt="Principal">
                     
                 </div>
     
@@ -30,7 +30,7 @@
             <br>
         </section> 
     
-        <section id="about-us" style="background-image: url("{{ asset('img/mapuche1.png') }}");" >
+        <section id="about-us" style="background-image: url("{{ asset('img/mapuche1.png') }}"); " >
             <div class="container-fluid bg-primary"  id="NuestroTrabajo">
                 <div class="content-center">
                     <h1 class="">¿Quienes somos?</h1>

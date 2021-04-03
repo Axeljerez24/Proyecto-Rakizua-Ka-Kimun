@@ -25,4 +25,8 @@ Route::get('/registro',  function(){
     return view('registro1');
 });
 
+Route::get('/nosotros', function () {
+    return view('nosotros');
+});
+
 

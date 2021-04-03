@@ -1,12 +1,16 @@
 <nav class="navbar navbar-expand-lg navbar-inverse sticky-top" id="menu" >
     <div class="container">
-        <a class="navbar-brand" href="#"></a>
+        <a class="navbar-brand" href="/"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <ion-icon name="menu-outline"></ion-icon>
         </button>
     
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
+            <ul class="navbar-nav ml-right">
+                <li class="nav-item">
+                    <a class="nav-link mb-5"  href="/"><img src="{{ asset('img/banner.png') }}" alt="inicio" style="max-width: 140px;"></a>
+                </li>
+            </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item px-2">
                 <a class="nav-link" href="/" style="text-align: center; color: black;">Inicio </a>

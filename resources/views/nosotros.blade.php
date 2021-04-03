@@ -1,26 +1,35 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-<link rel="stylesheet" href="/css/idea.css">
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>Hover Effect Style</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <!------------------ Hover Effect Style : Demo - 1 --------------->
-        <div class="container">
-            
-        
-  
-        
-        <!------------------ Hover Effect Style : Demo - 5 --------------->
-        <div class="container mt-40">
+@extends('general.template')
+@section('content')
+
+
+
+    
+    <section id="first">
+        <div class="container text-center bg-dark rounded shadow my-4 p-3">
+            <h1 class="divider pt-5 mx-5"></h1>
+            <h1 class="pb-1">
+                <span class="">¿</span>
+                <span class="">Q</span>
+                <span class="">u</span>
+                <span class="">i</span>
+                <span class="">e</span>
+                <span class="">n</span>
+                <span class="">e</span>
+                <span class="">s</span>
+                <span class="ml-3">S</span>
+                <span class="">o</span>
+                <span class="">m</span>
+                <span class="">o</span>
+                <span class="">s</span>
+                <span class="">?</span>
+            </h1>
+            <h1 class="divider pt-1 mx-5"></h1>
+            <div>
+                Somos tanto tanto y estos son nuestros profesores:
+            </div>
+            <br>
+            <div class="row">
+            <div class="container mt-40">
             <h3 class="text-center">Presentación efecto 2</h3>
             <div class="row mt-30">
                 <div class="col-md-4 col-sm-6">
@@ -32,7 +41,7 @@
                         </ul>
                         <div class="box-content">
                             <h3 class="title">Axel Jerez</h3>
-                            <span class="post">Web Developer</span>
+                            <span class="post">Profesor guia de mapudungun</span>
                         </div>
                     </div>
                 </div>
@@ -111,9 +120,17 @@
             </div>
         </div>
         
-       <hr> 
+       
+            </div>
+        </div>
+
+    </section>
+ 
+        <!------------------ Hover Effect Style : Demo - 5 --------------->
+               <hr> 
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
-    </body>
-</html>
+
+
+@endsection
