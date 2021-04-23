@@ -8,12 +8,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-right">
                 <li class="nav-item">
-                    <a class="nav-link mb-5"  href="/"><img src="{{ asset('img/banner.png') }}" alt="inicio" style="max-width: 140px;"></a>
+                    <a class="nav-link mb-5"  href="/"><img src="{{ asset('img/logobandera.png') }}"  alt="inicio" style="max-width: 195px;"></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item px-2">
-                <a class="nav-link" href="/" style="text-align: center; color: black;">Inicio </a>
+                <a class="nav-link" href="/nosotros" style="text-align: center; color: black;">Nosotros </a>
                     </li>
                 <li class="nav-item px-2">
                 <a class="nav-link" href="/ingresar" style="text-align: center; color: black;">Ingresar</a>

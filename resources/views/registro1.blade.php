@@ -5,17 +5,18 @@
 <body>
     <section id="formulario">
         <form action="formulario.php" method="POST">
-            <div class="container-fluid bg-primary margin-xy">
+            <div class="container-fluid  margin-xy">
                 <div class="row">
-                    <div class="col-md-6 px-5" >
+                    <div class="col-md-4 px-5 mt-5" >
                         <div id="formfoto"></div>
                         <h1 class="divider3"></h1>
-                        <h3 class="text-center">Inscribete con nosotros al <br> instante!</h3>
+                        <h3 class="text-center" style="color:#0A0045">Inscribete con nosotros al <br> instante!</h3>
                         <h1 class="divider3"></h1>
-                        <p class="text-justify px-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ratione voluptatem eum et placeat suscipit dolores. Rerum esse deserunt similique, excepturi mollitia repudiandae. Hic, enim officiis consectetur earum blanditiis distinctio.</p>
+                        <p class="text-justify px-5">.</p>
                     </div> 
-                    <div class="col-md-6">
-                        <div class="row card">
+                    
+                    <div class="col-md-6 mt-5">
+                        <div class="row">
                             
                             <div class="col-md-4">
                                 <div class="form-group">
@@ -55,6 +56,7 @@
                                 </div>
                         </div>
                     </div>
+                
                 </div>
             </div>
         </form>

@@ -5,7 +5,7 @@
 
     
     <section id="first">
-        <div class="container text-center bg-dark rounded shadow my-4 p-3">
+        <div class="container text-center my-3 p-3">
             <h1 class="divider pt-5 mx-5"></h1>
             <h1 class="pb-1">
                 <span class="">¿</span>
@@ -23,9 +23,14 @@
                 <span class="">s</span>
                 <span class="">?</span>
             </h1>
-            <h1 class="divider pt-1 mx-5"></h1>
+            <h1 class="divider pt-1 mx-5"></h1>            
             <div>
-                Somos tanto tanto y estos son nuestros profesores:
+                <h1 class="mt-2">Misión:</h2>
+                <h3 class="mt-2">aquí va la misión <br> continuacion .</h1>     
+            </div>
+            <div>
+                <h1 class="mt-2">Visión:</h2>
+                <h3 class="mt-2">aquí va la visión<br> continuacion.</h1>     
             </div>
             <br>
             <div class="row">
@@ -40,8 +45,15 @@
                             <li><a href="#" class="fa fa-link"></a></li>
                         </ul>
                         <div class="box-content">
+                            
                             <h3 class="title">Axel Jerez</h3>
-                            <span class="post">Profesor guia de mapudungun</span>
+                            <span class="post">Desarrollador backend y frontend</span>
+                            <br>
+                            <span class="post">CONTACTO:</span>
+                            <br>
+                            <span class="post">axel.jerezv@utem.cl</span>
+                            <span class="post">+569 98989898</span>
+                            
                         </div>
                     </div>
                 </div>
@@ -83,7 +95,10 @@
                         <img src="http://bestjquery.com/tutorial/hover-effect/demo156/images/img-1.jpg" alt="">
                         <div class="box-content">
                             <h3 class="title">Axel Jerez</h3>
-                            <span class="post">Web Developer</span>
+                            <span class="post">Desarrollador backend y frontend</span>
+                            <span class="post">CONTACTO:</span>                            
+                            <span class="post">axel.jerezv@utem.cl</span>
+                            <span class="post">+569 98989898</span>
                             <ul class="icon">
                                 <li><a href="#" class="fa fa-search"></a></li>
                                 <li><a href="#" class="fa fa-link"></a></li>

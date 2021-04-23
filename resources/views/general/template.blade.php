@@ -16,18 +16,32 @@
     <title>Rakizuam Ka Kimun</title>
     
     <style>
-        body,
+        body{
+            font-family: chocolatos !important;
+        },
 html {
     margin: 0;
     padding: 0;
     height: 100%;
+    
 }
+
+@font-face{
+    font-family: chocolatos;
+    src: url("{{ asset('fuentes/Chocolatos.ttf') }}") format('truetype');
+}
+
 .user_card {
+    border-color: #0a9aee !important;
+    border-width: 100%;
     height: 400px;
     width: 350px;
     margin-top: auto;
     margin-bottom: auto;
-    background: #0A0045 !important;
+    background-color: #0A0045 !important;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
     position: relative;
     display: flex;
     justify-content: center;
@@ -44,7 +58,7 @@ html {
     width: 170px;
     top: -75px;
     border-radius: 50%;
-    background: white;
+    background: #0A0045;
     padding: 10px;
     text-align: center;
 }
@@ -52,21 +66,21 @@ html {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 2px solid white;
-    background-image: url("{{ asset('img/logo.png') }}");
+    border: 2px solid #0a9aee ;
+    background-image: url("{{ asset('img/escuela.png') }}") !important;
 }
 .form_container {
     margin-top: 100px;
 }
 .login_btn {
     width: 100%;
-    background: #e6bc3083 !important;
+    background: #e0c10f !important;
     color: white !important;
 }
 .login_btn:hover {
     width: 100%;
     background: #e6303083 !important;
-    color: black !important;
+    color: white !important;
 }
 .login_btn:focus {
     box-shadow: none !important;
@@ -119,12 +133,9 @@ html {
             color: var(--primary) !important;
         }
         
-        h1{
-            font-family: 'Oswald', sans-serif;   
-        }
+        
         h2, h3 , .navbar-brand{
             font-weight: 500 !important;
-            font-family: 'Oswald', sans-serif;
             line-height: 1.5 !important;
             font-size: 30px;
         }
@@ -154,7 +165,7 @@ html {
             min-height: 6rem;
             background-color: #0A0045; 
             transition: all 1s ease;
-            background-image: url("{{ asset('img/bandera.png') }}") ; 
+            
             background-size: 9% !important;
             background-position-y: 13px;
             background-position-x: 24%;
@@ -165,7 +176,7 @@ html {
         
         .nav-link{
             color: var(--white) !important;
-            font-size: 1.0rem;
+            font-size: 1.5rem;
             max-height: 2rem;
         }
         
@@ -212,12 +223,15 @@ html {
             border: 1.5px solid var(--primary);
             border-radius: 20px;
             min-width: 30px;
-            background-color:  #E7EA0B;
+            background-color:  #1F8100;
         }
         #first img{
             /*position: relative;*/
             border-radius: 15px;
             margin: 20px 20px;
+        }
+        #first h2{
+            clor: ;#0A0045 !important
         }
         
         /* Seccion us */
@@ -287,7 +301,7 @@ html {
             padding: 80px 0 0 0;
         }
         .divider3{
-            border-bottom: 2px solid var(--white);
+            border-bottom: 2px solid #0A0045;
         }
         .margin-y{
             padding-top: 20px;
@@ -301,6 +315,12 @@ html {
         /* Seccion about us */
         #about-us{
             background-image: url("{{ asset('img/mapuche1.png') }}") !important;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 55%;
+            
+            
+            
         }
         
         #about-us h1 , h2{
@@ -339,17 +359,19 @@ html {
         
         /*Seccion formulario */
         #formulario {
-            background-image: url("{{ asset('img/logo.png') }}");
+            background-image: url("{{ asset('img/fondo1.png') }}") !important; 
             background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-position: center;
-            background-size: 50%;
+            
+            background-position: center center !important;
+            background-size: 100%;
         }
         
         #formulario h3{
-            color: var(--white) !important;
-            font-size: 45px;
-            font-weight: 100;
+            color:#033cf5;
+            font-size: 50px;
+            font-weight: 900;
+            font-family: 'chocolatos';
+            
         }
         
         #formulario p{
@@ -360,7 +382,8 @@ html {
         
         #formulario .btn{
             color: var(--white) !important;
-            border: 1.5px solid var(--white) !important;
+            border: 1.5px solid #0A0045 !important;
+            background-color:  #0A0045 !important;
             /*border-color: var(--primary) !important;*/
         }
         
@@ -390,6 +413,9 @@ html {
         .margin-xy{
             padding-top: 80px;
             padding-bottom: 50px;
+        }
+        .margin-xy1{
+            margin-left: 120px !important;
         }
         
         /* Seccion description */
