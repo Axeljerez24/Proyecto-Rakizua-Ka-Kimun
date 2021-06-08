@@ -4,8 +4,11 @@
 
 
 <br>
-<section>
-    <div class="container-fluid  margin-xy">
+<body>
+    
+
+<section id="formulario_log" >
+    <div class="container-fluid  margin-xy" >
         <div class="row">             
             <div class="col-md-6">
                 <div class="row margin-xy1">
@@ -68,5 +71,5 @@
 
 </section>
 
-
+    
 @endsection

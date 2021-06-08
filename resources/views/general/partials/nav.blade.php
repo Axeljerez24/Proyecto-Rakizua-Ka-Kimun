@@ -8,7 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-right">
                 <li class="nav-item">
-                    <a class="nav-link mb-5"  href="/"><img src="{{ asset('img/logobandera.png') }}"  alt="inicio" style="max-width: 195px;"></a>
+                    <a class="nav-link mb-5"  href="/"><img src="{{ asset('img/banners.png') }}"  alt="inicio" style="max-width: 195px;"></a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">
