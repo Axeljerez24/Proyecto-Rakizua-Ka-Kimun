@@ -1,4 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-inverse sticky-top" id="menu" >
+<div>
+    <nav class="navbar navbar-expand-lg navbar-inverse sticky-top" id="menu" >
     <div class="container">
         <a class="navbar-brand" href="/"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,6 +29,7 @@
         </div>
     </div>
   </nav>
+</div>
 <br>
 <script>
         $(window).scroll(function(){

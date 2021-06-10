@@ -29,4 +29,8 @@ Route::get('/nosotros', function () {
     return view('nosotros');
 });
 
+Route::get('/home', function () {
+    return view('home');
+});
+
 
