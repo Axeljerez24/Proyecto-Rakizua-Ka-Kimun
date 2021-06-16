@@ -23,7 +23,8 @@ class CreateUsersTable extends Migration
             $table->string('Pais');
             $table->string('Region');
             $table->string('Comuna');
-            $table->integer('Edad');                
+            $table->integer('Edad');
+            $table->string('Sexo');                
             $table->string('Pueblo originario')->nullable(); 
             $table->string('Certificado CONADI')->nullable(); 
             $table->integer('Telefono');

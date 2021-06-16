@@ -15,6 +15,7 @@ class Prueba extends Migration
     {
         Schema::create('prueba', function (Blueprint $table) {
             $table->id('');
+            //llenar con llave foranea de niveles
             $table->integer('Numero_prueba');            
             $table->timestamps();
         });

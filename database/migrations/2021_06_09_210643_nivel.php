@@ -16,6 +16,7 @@ class Nivel extends Migration
         Schema::create('nivel', function (Blueprint $table){
             $table->id('');
             $table->integer('numero_nivel');
+            $table->string('Portafolio');
             $table->string('nombre_nivel');
             $table->string('estado_nivel');
             $table->float('promedio_nivel');
