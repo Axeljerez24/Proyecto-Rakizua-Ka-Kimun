@@ -28,7 +28,7 @@ html {
 </head>
 <body>
     <div class="hero">
-        <div class="navbar">
+        <div class="navbar sticky-top">
             <nav>
                 <img class="logo" src="/img/banner.png" alt="">
                 <ul id="links">
@@ -65,12 +65,21 @@ html {
         </div>
     </div>
 
+
     <!-- Secciones siguientes -->
 
     <div class="categories">
         <div class="small-container">   
-            
+           <h1 class="tittle">¿Quienes somos?</h1>
             <div class="row">
+                <div class="container">
+                    <h3>"Somos una asociacion indigena, la cual busca que todos volvamos a estar conectados
+                        con nuestras raices y tambien con el pueblo mapuche."
+                    </h3>
+                </div>
+            </div>
+
+           <div class="row">
                 <div class="col-3">
                     <img src="/img/logobandera.png" alt="">
                 </div>
@@ -84,6 +93,28 @@ html {
         </div>    
     </div>
 
+    
+    <!-- Secciones siguientes -->
+<section id="proposito">
+    <div class="proposito">
+        <div class="small-container">   
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="tittle">Misión</h1>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae deleniti expedita, possimus rerum fuga beatae quae 
+                        incidunt, aliquam dolorum accusamus, maiores alias dolores sapiente? Minima sed aut est dolores velit?</h3>
+                </div>
+                <div class="col-6">
+                    <h1 class="tittle">Visión</h1>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae deleniti expedita, possimus rerum fuga beatae quae 
+                        incidunt, aliquam dolorum accusamus, maiores alias dolores sapiente? Minima sed aut est dolores velit?</h3>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+</section>
+    
     <!-- Nosotros -->
 
     <div class="small-container">
@@ -107,7 +138,6 @@ html {
         </div>
     </div>
 
-    
 
     <!-- La escuela -->
     <div class="escuela">{
@@ -126,5 +156,87 @@ html {
             </div>
         </div>
     </div>
+
+    <!-- Secciones siguientes -->
+
+    <div class="categories">
+        <div class="small-container">   
+           <h1 class="tittle">¿Quienes somos?</h1>
+            <div class="row">
+                <div class="container">
+                    <h3>"Somos una asociacion indigena, la cual busca que todos volvamos a estar conectados
+                        con nuestras raices y tambien con el pueblo mapuche."
+                    </h3>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <!-- colaboradores -->
+    <div class="colaboradores">
+        <div class="small-container">
+            <h1 class="tittle">Colaboradores</h1>
+            <div class="row">
+                <div class="col-5">
+                    <img src="/img/bandera.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/img/LOGO-CORE-2019.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/img/logo.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/img/GORE.png" alt="">
+                </div>
+                <div class="col-5">
+                    <img src="/img/bandera.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- Footer -->
+    <section id="footer">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="footer-col-1">
+                        <h3>Textos que escribir</h3>
+                        <p>Mas y mas textos que se deben rellenar</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="/img/bandera.png" alt="">
+                        <p>Nuestro proposito es entregar informacion y educar al pueblo
+                            con el fin de crecer todos juntos, jamas dejes de soñar
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Link utiles</h3>
+                        <ul>
+                            <li>Noticias</li>
+                            <li>Politica</li>
+                            <li>Nosotros</li>
+                            <li>Registrate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Siguenos</h3>
+                        <ul>
+                            <li><i class="fab fa-facebook"></i> Facebook</li>
+                            <li><i class="fab fa-instagram"></i> Instragram</li>
+                            <li><i class="fab fa-twitter-square"></i> Twitter</li>
+                            <li><i class="fas fa-sign-in-alt"></i> Registrate</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright 2021 - Asociación Nombre</p>
+            </div>
+        </div>
+    </section>
 </body>
+
+<script src="https://kit.fontawesome.com/c8152ea011.js" crossorigin="anonymous"></script>
 </html>
