@@ -1,8 +1,13 @@
-@extends('general.template')
+@extends('general.template1')
 @section('content')
     
 
+  
+    
+
 <body>
+    
+
     <section id="formulario">
         <form action="formulario.php" method="POST">
             <div class="container-fluid  margin-xy">
@@ -62,6 +67,24 @@
         </form>
         
     </section>
+</div>
+ 
 
-     
+    <script>
+        var links = document.getElementById("links");
+        links.style.maxHeight = "0px";
+        function menutoggle(){
+            if(links.style.maxHeight == "0px"){
+                links.style.maxHeight = "200px";
+            }else{
+                links.style.maxHeight = "0px" 
+            }
+        }    
+            
+    </script>
+
+</body>
+<script src="https://kit.fontawesome.com/c8152ea011.js" crossorigin="anonymous"></script>
+</html>
+
 @endsection

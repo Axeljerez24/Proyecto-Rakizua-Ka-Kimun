@@ -1,44 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
-    <!--Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="{{ asset('css/estilo.css') }}">
-    <title>Pagina principal escuelita</title>
-    <style>
-        body{
-            font-family: chocolatos !important;
-        },
-html {
-    margin: 0;
-    padding: 0;    
-    
-}
+@extends('general.template1')
+@section('content')
 
-@font-face{
-    font-family: chocolatos;
-    src: url("{{ asset('fuentes/Chocolatos.ttf') }}") format('truetype');
-}
-
-    </style>
-</head>
 <body>
-    <div class="hero">
-        <div class="navbar sticky-top">
-            <nav>
-                <img class="logo" src="/img/banner.png" alt="">
-                <ul id="links">
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Nosotros</a></li>
-                </ul>
-                <a class="btn" href="">Registrate</a>
-            </nav>
-    
-        </div>
+
+        
         
 
         <div class="row">
@@ -181,13 +146,13 @@ html {
                     <img src="/img/bandera.png" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="/img/LOGO-CORE-2019.png" alt="">
+                    <img src="/img/logo-core-2019.png" alt="">
                 </div>
                 <div class="col-5">
                     <img src="/img/logo.png" alt="">
                 </div>
                 <div class="col-5">
-                    <img src="/img/GORE.png" alt="">
+                    <img src="/img/gore.png" alt="">
                 </div>
                 <div class="col-5">
                     <img src="/img/bandera.png" alt="">
@@ -197,46 +162,22 @@ html {
     </div>
 
     <!--- Footer -->
-    <section id="footer">
-        <div class="footer">
-            <div class="container">
-                <div class="row">
-                    
-                    <div class="footer-col-1">
-                        <h3>Textos que escribir</h3>
-                        <p>Mas y mas textos que se deben rellenar</p>
-                    </div>
-                    <div class="footer-col-2">
-                        <img src="/img/bandera.png" alt="">
-                        <p>Nuestro proposito es entregar informacion y educar al pueblo
-                            con el fin de crecer todos juntos, jamas dejes de soñar
-                        </p>
-                    </div>
-                    <div class="footer-col-3">
-                        <h3>Link utiles</h3>
-                        <ul>
-                            <li>Noticias</li>
-                            <li>Politica</li>
-                            <li>Nosotros</li>
-                            <li>Registrate</li>
-                        </ul>
-                    </div>
-                    <div class="footer-col-4">
-                        <h3>Siguenos</h3>
-                        <ul>
-                            <li><i class="fab fa-facebook"></i> Facebook</li>
-                            <li><i class="fab fa-instagram"></i> Instragram</li>
-                            <li><i class="fab fa-twitter-square"></i> Twitter</li>
-                            <li><i class="fas fa-sign-in-alt"></i> Registrate</li>
-                        </ul>
-                    </div>
-                </div>
-                <hr>
-                <p class="copyright">Copyright 2021 - Asociación Nombre</p>
-            </div>
-        </div>
-    </section>
+
+    
+<script>
+    var links = document.getElementById("links");
+    links.style.maxHeight = "0px";
+    function menutoggle(){
+        if(links.style.maxHeight == "0px"){
+            links.style.maxHeight = "200px";
+        }else{
+            links.style.maxHeight = "0px" 
+        }
+    }    
+        
+</script>
 </body>
 
 <script src="https://kit.fontawesome.com/c8152ea011.js" crossorigin="anonymous"></script>
 </html>
+@endsection
